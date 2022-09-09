@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>map project</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
+    integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
+    crossorigin=""/>
+
+
+    <style>
+        #map{
+            height: 100vh;
+            width: 100%;
+            margin: 0;
+        }
+    </style>
+
+</head>
+<body>
+
+    <div id="map"></div>
+
+    <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
+    integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ=="
+    crossorigin="true">
+    </script>
+
+
+    <script>
+        //distribution//
+        var map = L.map('map').setView([6.6919, -1.6287], 13);
+
+        L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 19,
+            attribution: '© OpenStreetMap'
+        }).addTo(map);
+
+        var marker = L.marker([6.6735298, -1.6165727]).addTo(map);
+        marker.bindPopup("<b>Nhyiaeso</b> <br>This town is having a total of 99 recorded (2017-2021). Fraud being the highest (57%) and murder being the lowest (2%). The highest number of recorded crime in this area was 26 in the 2021. The yearly crime rate is 5.29%. the presence of police patrols is having a greater impact on the on the rate. For more effective control, the number of police demploy in the area must increased. check out the break down  <a href=nhyiaeso.jpg target=_blank download>statistics<a>").openPopup();
+
+        
+        var marker = L.marker([6.6798051, -1.6039047]).addTo(map);
+        marker.bindPopup("<b>Amakom</b> <br>Amakom is one of the places in the metropolis with high crimal record. Crimes such as destruction of properties, fraud, police assult are very common. Amakom police department is doing a very great work. The average crime rate is 6% (2017-2021). For more effective control, the number of police demploy in the area must increased. check out the break down  <a href=amakom.jpg target=_blank download>statistics<a> ").openPopup();
+
+        
+        var marker = L.marker([6.6959775, -1.6008211]).addTo(map);
+        marker.bindPopup("<b>Aboabo</b> <br> The crime nature of crime graph in Aboabo in indulating due to the activeness on both parts (the police and the crimninals). 2016 to 2017 waws the best period for crime combat with rate of -12% while 2020 to 2021 had rate of 10% which was bad. Check out the break down  <a href=aboabo.jpg target=_blank download>statistics<a> ").openPopup();
+        
+
+        var circle = L.circle([6.6959775, -1.6008211], {
+            color: 'red',
+            fillColor: 'red',
+            fillOpacity: 0.3,
+            radius: 200
+        }).addTo(map);
+
+        var circle = L.circle([6.69638611, -1.62332500], {
+            color: 'red',
+            fillColor: 'red',
+            fillOpacity: 0.3,
+            radius: 300
+        }).addTo(map);
+        
+        var marker = L.marker([6.6864908, -1.6408561]).addTo(map);
+        marker.bindPopup("<b>Patase</b>Patasi had more than 20 criminal cases every year (2017-2021). Murder and kidnapping is less in the area. Robbery, fraud and other social vices such as all kinds of assult, property destruction, rapes, etc. Research shows that there is 5% increase in the number of crimes for every year. Number of cops should be increased in that area. Check out the break down  <a href=patasi.jpg target=_blank download>statistics<a> ").openPopup();
+        
+        
+        var marker = L.marker([6.6945097, -1.6408561]).addTo(map);
+        marker.bindPopup("<b>South Suntreso</b><br>South Suntreso is has annual crime rate of 1% (2017-2021). Fraud and other crimes such as cybre crime and assult are the common crimes in the area. Fraud, cyber crimes and assult had more than 80% of the total crimes in South Suntreso (2017-2021). Check out the break down  <a href=south.jpg target=_blank download>statistics<a> ").openPopup();
+
+
+        
+        var marker = L.marker([6.7025297, -1.6408561]).addTo(map);
+        marker.bindPopup("<b>North Suntreso</b> <br>Both North and South Suntreso has common crime statistics. Regular police patrol will help reduce the number of crimes in the area. Check out the break down  <a href=north.jpg target=_blank download>statistics<a> ").openPopup();
+
+        
+        var marker = L.marker([6.7065762, -1.6299338]).addTo(map);
+        marker.bindPopup("<b>Bantama</b><br>The crime ttrrend in Bantama is sag-like with 2019 on the lowest with 19 recorded crime cases. Most common crimes in the area are fraud and assult. The police department has work very hard to keep the situation by bringing down the annual crime rate from 16% to 2% (2017-2021). Check out the break down  <a href=bantama.jpg target=_blank download>statistics<a> ").openPopup();
+
+        var circle = L.circle([6.7065762, -1.6299338], {
+            color: 'red',
+            fillColor: 'red',
+            fillOpacity: 0.3, 
+            radius: 300
+        }).addTo(map);
+
+        var marker = L.marker([6.6987, -1.6232]).addTo(map);
+        marker.bindPopup("<b>Kejetia</b><br>Kejetia is one the busiest area in the whole country due to the market and the lorry stations. It has the second highest annual crime rate of 25%(2017-2021). Fraud and theft are the most common crimes in this sub-metro. The number of cops and security cameras should be increased. Check out the break down  <a href=kejetia.jpg target=_blank download>statistics<a>").openPopup();
+
+        var marker = L.marker([6.6918767, -1.6287204]).addTo(map);
+        marker.bindPopup("<b>Adum</b><br> Adum is ppopularly known for its largest market and the big offices in the metropolis. Areas with the offices are cold but the market is very hot in terms of crime analysis. Adum has the second highest crime record in the metropolis. Fraud, theft and assult are the common crimes. The presence of the police scares the criminals and so the crime rate low. Check out the break down  <a href=adum.jpg target=_blank download>statistics<a> ").openPopup();
+
+        var marker = L.marker([6.6776257, -1.6312719]).addTo(map);
+        marker.bindPopup("<b>Dakodwom</b><br>The crime in Dakwadwon had been increasing with annual rate of 2%. Fraud has the highest percentage out of the total crimes (2017-2021). Techniques for for combatting fraud should be employed in the area. Check out the break down  <a href=dakwadwom.jpg target=_blank download>statistics<a> ").openPopup();
+
+        var marker = L.marker([6.7052912, -1.614162]).addTo(map);
+        marker.bindPopup("<b>Manhyia</b><br>Manhia had over 50 recorded crime cases (2017-2021). Fraud, theft, cyber and assult are the common crimes in the area. The presnce of the cops is helping to reduce the number of crime occurraces. Techniques for combatting crime fraud, robbry and theft must be employed. Check out the break down  <a href=manhyia.jpg target=_blank download>statistics<a> ").openPopup();
+
+        var marker = L.marker([6.7106624, -1.6068846]).addTo(map);
+        marker.bindPopup("<b>Dichemso</b><br> Dichemso hads the high percentage for the town basis analysis with a value of 4% (2017-2021). The police has done a very great job in this area. The annual crime rate is -3% (2017-2021). Check out the break down  <a href=dichemso.jpg target=_blank download>statistics<a> ").openPopup();
+
+        
+        var marker = L.marker([6.6952599, -1.6159815]).addTo(map);
+        marker.bindPopup("<b>Zongo</b><br>Almost all knids of crimes can be found in Zongo. Zongo has the highest number of murder caeses resulting from assult and robbery. Fraud and other social vices such as assult including police assults domestic violence are very common. Both the police and the civilians has helped very hard to keep down the crime rate to almost 0%. Check out the break down  <a href=zongo.jpg target=_blank download>statistics<a> ").openPopup();
+
+        
+        var marker = L.marker([6.6707941, -1.6214406]).addTo(map);
+        marker.bindPopup("<b>Odumasi</b> <br>Murder is currently at its peak at Odumasi, KMA. Fraud is is also on rapid icreament. 1% annual crime rate (2017-2021). Check out the break down  <a href=odumasi.jpg target=_blank download>statistics<a> ").openPopup();
+
+        
+        var circle = L.circle([6.69489444, -1.61709722], {
+            color: 'red',
+            fillColor: 'red',
+            radius: 300
+        }).addTo(map);
+
+
+        var marker = L.marker([6.6883018, -1.6187039]).addTo(map);
+        marker.bindPopup("<b>Asafo</b> <br>Asafo is aloso known for their busy market and the lorry station. Fraud and other social vices such as assult and theft are the common crimes. Annual crime rate is 2% (2017-2021). Cops spread across the sub-metro is really helping in teh eradication process. Check out the break down  <a href=asafo.jpg target=_blank download>statistics<a> ").openPopup();
+
+        var circle = L.circle([6.68720278, -1.61513333], {
+            color: 'red',
+            fillColor: 'red',
+            radius: 300
+        }).addTo(map);
+        
+
+        var polygon = L.polygon([
+            [6.681650548, -1.642167252],
+            [6.684019111, -1.645805015],
+            [6.691411142, -1.645611253],
+            [6.703189983, -1.643111902],
+            [6.705813789, -1.64045997],
+            [6.70916576, -1.634877725],
+            [6.714360568, -1.616460828],
+            [6.714515328, -1.607778281],
+            [6.709047845, -1.602701482],
+            [6.708454782, -1.604728113],
+            [6.707021347, -1.608614581],
+            [6.702888086, -1.613095164],
+            [6.69854643, -1.615235589],
+            [6.696792188, -1.611140979],
+            [6.697017452, -1.601297],
+            [6.69274958, -1.60171261],
+            [6.690574435, -1.604532929],
+            [6.687381927, -1.602939589],
+            [6.685516733, -1.598276306],
+            [6.680353245, -1.595464002],
+            [6.674024518, -1.595194411],
+            [6.669813749, -1.597821248],
+            [6.66636831, -1.604717854],
+            [6.665101689, -1.611204925],
+            [6.669621604, -1.633557091],
+            [6.673710851, -1.636975129],
+            [6.678968178, -1.640052953]
+        ], {
+            fillColor: 'white',
+            color: 'white',
+            fillopacity: 0.2
+            
+        }).addTo(map);
+        
+
+        
+
+        
+
+
+    </script>
+
+</body>
+</html>
