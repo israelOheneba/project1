@@ -17,7 +17,7 @@ body {
 
 
 
-@media all and (max-width: 550px) and (min-width: 500px) {
+@media all and (max-width: 550px) {
     .main {
         width: 480px;
         align-items: center;
@@ -32,7 +32,7 @@ body {
     margin: auto;
 }
 
-@media screen and (max-width: 550px) and (min-width: 500px) {
+@media screen and (max-width: 550px) {
     .navbar {
         padding-left: 0;
         width: 480px;
@@ -48,7 +48,7 @@ body {
     height: 70px;
 }
 
-@media screen and (max-width: 550px) and (min-width: 500px) {
+@media screen and (max-width: 550px) {
     .icon {
         width: 45px;
         height: 50px;
@@ -66,7 +66,7 @@ body {
     float: left;
 }
 
-@media screen and (max-width: 550px) and (min-width: 500px) {
+@media screen and (max-width: 550px)  {
     .logo{
         font-size: 18px;
         padding: 0;
@@ -78,7 +78,7 @@ body {
     font-size: 15px;
 }
 
-@media screen and (max-width: 550px) and (min-width: 500px) {
+@media screen and (max-width: 550px) {
     .logo sub {
         font-size: 15px;
     }
@@ -91,7 +91,7 @@ body {
     height: 70px;
 }
 
-@media screen and (max-width: 550px) and (min-width: 500px) {
+@media screen and (max-width: 550px) {
     .menu {
         width: 250px;
         height: 20px;
@@ -114,7 +114,7 @@ ul li {
     font-size: 14px;
 }
 
-@media screen and (max-width: 550px) and (min-width: 500px)  {
+@media screen and (max-width: 550px)  {
     ul li {
         margin-left: 8px;
         margin-top: 15px;
@@ -130,7 +130,7 @@ ul li a {
     text-decoration: none;
     transition: 0.4s ease-in-out;
 }
-@media screen and (max-width: 550px) and (min-width: 500px) {
+@media screen and (max-width: 550px) {
     ul li a {
         padding: 4px;
     }
@@ -154,7 +154,7 @@ ul li a:hover {
     font-family: 'Times New Roman';
 }
 
-@media screen and (max-width: 550px) and (min-width: 500px) {
+@media screen and (max-width: 550px) {
     .search {
         width: 50px;
         font-size: 20px;
@@ -181,7 +181,7 @@ ul li a:hover {
     padding-left: 100px;
 }
 
-@media screen and (max-width: 550px) and (min-width: 500px) {
+@media screen and (max-width: 550px) {
     .footer {
         width: 480px;
         font-size: 10px;
@@ -208,7 +208,7 @@ ul li a:hover {
     color: white;
 }
 
-@media screen and (max-width: 550px) and (min-width: 500px) {
+@media screen and (max-width: 550px) {
     .incontent {
         width: 470px;
 
@@ -224,7 +224,7 @@ ul li a:hover {
     padding-left: 20px;
 }
 
-@media screen and (max-width: 550px) and (min-width: 500px) {
+@media screen and (max-width: 550px) {
 .incontent h1 {
     letter-spacing: 2px;
     padding-left: 2px;
@@ -237,7 +237,7 @@ ul li a:hover {
     font-size: 60px;
 }
 
-@media screen and (max-width: 550px) and (min-width: 500px) {
+@media screen and (max-width: 550px) {
     .incontent h1 span {
         font-size: 17px;
         color: orangered;
@@ -253,7 +253,7 @@ ul li a:hover {
     letter-spacing: 1.2px;
 }
 
-@media screen and (max-width: 550px) and (min-width: 500px) {
+@media screen and (max-width: 550px) {
     .incontent p {
         letter-spacing: 0.5;
         padding-left: 2px;
@@ -310,7 +310,7 @@ y a {
     display: flex;
 }
 
-@media screen and (max-width: 550px) and (min-width: 500px) {
+@media screen and (max-width: 550px) {
     .thecontent {
         letter-spacing: 0.1;
         width: 480px;
@@ -331,7 +331,7 @@ y a {
     padding-left: 5px;
      }
 
-     @media screen and (max-width: 550px) and (min-width: 500px) {
+     @media screen and (max-width: 550px) {
         .abstract {
             width: 465px;
             height: 450px;
@@ -356,7 +356,7 @@ y a {
     text-align: justify;  
 }
 
-@media screen and (max-width: 550px) and (min-width: 500px) {
+@media screen and (max-width: 550px) {
     .work {
         position: absolute;
         left: 1%;
@@ -380,7 +380,7 @@ y a {
     letter-spacing: 1px;
 }
 
-@media screen and (max-width: 550px) and (min-width: 500px) {
+@media screen and (max-width: 550px) {
     .work p {
         font-size: 11px;
         letter-spacing: 0.5px;
@@ -394,7 +394,7 @@ b {
     font-family: 'Times New Roman';
 }
 
-@media screen and (max-width: 550px) and (min-width: 500px) {
+@media screen and (max-width: 550px) {
     b {
         font-size: 12px;
     }
@@ -405,7 +405,7 @@ k {
     font-size: 16px;
 }
 
-@media screen and (max-width: 550px) and (min-width: 500px) {
+@media screen and (max-width: 550px) {
     k {
         font-size: 11px;
     }
@@ -424,7 +424,7 @@ k {
     color: white;
   }
 
-  @media screen and (max-width: 550px) and (min-width: 500px) {
+  @media screen and (max-width: 550px) {
     .work t a {
         padding: 2px 5px;
         font-size: 10px;
@@ -449,7 +449,7 @@ k {
     padding: 5px  5px;
 }
 
-@media screen and (max-width: 550px) and (min-width: 500px) {
+@media screen and (max-width: 550px) {
     .control {
         width: 480px;
         margin-left: 0;
@@ -469,7 +469,7 @@ k {
     left: 7%;
   }
 
-  @media screen and (max-width: 550px) and (min-width: 500px) {
+  @media screen and (max-width: 550px) {
     .mapbox {
         font-size: 11px;
         padding-left: 0px;
@@ -491,7 +491,7 @@ k {
     padding: 10px;
   }
 
-  @media screen and (max-width: 550px) and (min-width: 500px) {
+  @media screen and (max-width: 550px) {
     .controlmap {
         padding-top: 0px;
         width: 470px;
@@ -501,7 +501,7 @@ k {
     }
   }
 
-  @media screen and (max-width: 550px) and (min-width: 500px) {
+  @media screen and (max-width: 550px) {
     iframe {
         width: 100%;
         height: 100%;
@@ -520,7 +520,7 @@ k {
     text-align: justify;
   }
 
-  @media screen and (max-width: 550px) and (min-width: 500px) {
+  @media screen and (max-width: 550px) {
     .measures {
         padding-left: 0px;
         position: absolute;
@@ -555,7 +555,7 @@ k {
     text-align: justify;
 }
 
-@media screen and (max-width: 550px) and (min-width: 500px) {
+@media screen and (max-width: 550px) {
     .research {
         font-size: 10px;
         width: 480px;
@@ -575,7 +575,7 @@ k {
     margin-left: 5px;
 }
 
-@media screen and (max-width: 550px) and (min-width: 500px) {
+@media screen and (max-width: 550px) {
     .author {
         width: 470px;
         min-height: 300px;
@@ -596,7 +596,7 @@ k {
     padding-right: 10px;
 }
 
-@media screen and (max-width: 550px) and (min-width: 500px) {
+@media screen and (max-width: 550px) {
     .contact {
         width: 470px;
         height: 200px;
@@ -616,7 +616,7 @@ img {
     height: 100px;
 }
 
-@media screen and (max-width: 550px) and (min-width: 500px) {
+@media screen and (max-width: 550px) {
     img {
         width: 50px;
         height: 50px;
@@ -628,7 +628,7 @@ img {
     height: 150px;
 }
 
-@media screen and (max-width: 550px) and (min-width: 500px) {
+@media screen and (max-width: 550px) {
     .nti{
         width: 465px;
         height: 100px;
@@ -645,7 +645,7 @@ img {
     top: 4%;
 }
 
-@media screen and (max-width: 550px) and (min-width: 500px) {
+@media screen and (max-width: 550px) {
     .ntiinfo {
         width: 400px;
         height: 70px;
@@ -660,7 +660,7 @@ img {
     height: 150px;
 }
 
-@media screen and (max-width: 550px) and (min-width: 500px) {
+@media screen and (max-width: 550px) {
     .abbey {
         width: 470px;
         height: 100px;
@@ -678,7 +678,7 @@ img {
     float: left;
 }
 
-@media screen and (max-width: 550px) and (min-width: 500px) {
+@media screen and (max-width: 550px) {
     .abbeyinfo {
         width: 400px;
         height: 70px;
@@ -690,7 +690,7 @@ img {
     height: 150px;
 }
 
-@media screen and (max-width: 550px) and (min-width: 500px) {
+@media screen and (max-width: 550px) {
     .sup {
         width: 470px;
         height: 100px;
@@ -703,7 +703,7 @@ img {
     float: right;
 }
 
-@media screen and (max-width: 550px) and (min-width: 500px) {
+@media screen and (max-width: 550px) {
     .dadzie {
         width: 400px;
         height: 70px;
