@@ -1,0 +1,244 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS';
+}
+
+body {
+    width: 100%;
+}
+
+h5 {
+    font-size: 18px;
+    color: red;
+}
+
+p {
+    font-size: 16px;
+    line-height: 2px;
+}
+
+#navbar {
+    width: 100%;
+    height: 55px;
+    background-color: #eee;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.5px solid grey;
+    box-shadow: 2px 2px 5px gray;
+    padding: 2px 100px;
+
+}
+
+#navbar .logo p {
+    font-size: 25px;
+    color: blueviolet;
+    text-decoration: none;
+    font-family: 'Times mew roman';
+    font-weight: bolder;
+}
+
+#button {
+    width: 200px;
+    height: 40px;
+    transition: 2.5s;
+    cursor: pointer;
+    position: absolute;
+    right: 100px;
+    border: 1px solid #cb7ceb;
+}
+
+#navbar button a {
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+
+#list {
+    width: 270px;
+    height: 250px;
+    position: absolute;
+    top: 7%;
+    right: -25%;
+    background-color: rgb(212, 208, 208);
+    list-style: none;
+    padding: 10px 20px;
+    transition: 1s ease-in-out;
+}
+
+#list.active {
+    right: 37.5px;
+}
+
+
+
+
+
+#navbar ul p {
+    padding-bottom: 10px;
+}
+
+#navbar ul li {
+    width: 100%;
+    border-bottom: 1px solid #cb7ceb;
+    margin-bottom: 10px;
+}
+
+#navbar ul li:hover {
+    background-color: white;
+}
+
+#navbar ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 5px 10px;
+}
+
+#navbar ul  :nth-child(6) {
+    border: none;
+}
+
+#close {
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    border: 1px solid red;
+    color: red;
+    margin-bottom: 40px;
+}
+#close:hover {
+    background-color: red;
+    color: white;
+}
+#close a{
+    font-size: 20px;
+    text-decoration: none;
+    padding: 5px;
+}
+
+/*content*/
+
+#content {
+    padding: 5px 50px;
+    display: flex;
+}
+
+#cont{
+    width: 60%;
+    justify-content: center;
+    text-align: justify;
+    margin-right: 10px;
+    margin-top: 50px;
+}
+
+#map {
+    width: 40%;
+    margin-top: 70px;
+}
+
+
+
+#content h3 {
+    color: rgb(204, 12, 12);
+    font-size: 20px;
+    margin-bottom: 5px;
+
+}
+
+#content p h5 {
+    font-size: 30px;
+    color: #000;
+    float: left;
+}
+
+footer {
+    width: 100%;
+    height: 200px;
+    padding: 0px 100px;
+    background-color: #cb7ceb;
+    font-size: 16px;
+    padding-top: 10px;
+
+}
+footer h5 {
+    color: black;
+}
+footer .developers {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .developers .dev1 {
+    width: 30%;
+    height: 70px;
+}
+
+footer .developers .dev1 img {
+    width: 20%;
+}
+
+
+
+
+/*phones*/
+@media (max-width: 477px) {
+    #navbar {
+        padding: 2px 20px;
+    }
+
+    #navbar .logo p {
+        font-size: 20px;
+    }
+    
+    #button {
+        width: 100px;
+        height: 40px;
+        right: 20px;
+    }
+
+    #navbar button a {
+        font-size: 16px;
+    }
+
+    #content {
+        padding: 5px 10px;
+        flex-direction: column;
+    }
+
+    #cont {
+        width: 100%;
+    }
+
+    #content h3 {
+        font-size: 18px;
+    }
+
+    #map {
+        width: 100%;
+        height: 400px;
+        margin: 20px 50px 0px 0px;
+    }
+
+    #list {
+        top: 7%;
+        right: -215%;
+    }
+
+    #list.active {
+        right: 0px;
+    }
+
+    footer {
+        padding: 0px 10px;
+        font-size: 14px;
+    }
+
+    
+}
+
+
