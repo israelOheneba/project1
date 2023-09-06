@@ -44,11 +44,16 @@ p {
 #button {
     width: 200px;
     height: 40px;
-    transition: 2.5s;
+    transition: .5s;
     cursor: pointer;
     position: absolute;
     right: 100px;
     border: 1px solid #cb7ceb;
+}
+
+#button:hover {
+    background-color: #e0a7f7;
+    border: 3px solid #ce69f7;
 }
 
 #navbar button a {
@@ -66,7 +71,7 @@ p {
     background-color: rgb(212, 208, 208);
     list-style: none;
     padding: 10px 20px;
-    transition: 1s ease-in-out;
+    transition: .8s ease-in-out;
 }
 
 #list.active {
@@ -155,6 +160,8 @@ p {
     float: left;
 }
 
+/* footer */
+
 footer {
     width: 100%;
     height: 200px;
@@ -166,23 +173,47 @@ footer {
 }
 footer h5 {
     color: black;
+    font-size: 16px;
+    margin-bottom: 10px;
 }
+
 footer .developers {
+    margin-top: 10px;
+    font-size: 16px;
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
 
-footer .developers .dev1 {
+footer .developers .dev1, footer .developers .dev2 {
     width: 30%;
     height: 70px;
 }
 
-footer .developers .dev1 img {
+footer .dev1, footer .dev2 {
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+}
+footer .dev1 img, footer .dev2 img {
     width: 20%;
+    border: 2px solid black;
+    border-radius: 1000px;
+
+} 
+
+footer .dev1 ul, footer .dev2 ul {
+    margin-right: 70px;
+    margin-top: 10px;
 }
 
+footer .dev1 ul li, footer .dev2 ul li {
+    list-style: none;
+}
 
+footer .dev1 ul li a, footer .dev2 ul li a {
+    text-decoration: none;
+}
 
 
 /*phones*/
@@ -236,6 +267,19 @@ footer .developers .dev1 img {
     footer {
         padding: 0px 10px;
         font-size: 14px;
+    }
+
+    footer h5 {
+    width: 100%;
+    }
+
+    footer .developers {
+    flex-direction: column;
+    }
+
+    footer .developers .dev1, footer .developers .dev2 {
+    width: 100%;
+    height: 70px;
     }
 
     
